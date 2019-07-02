@@ -114,6 +114,11 @@ body {
 
 /*------ Navbar Styling ------*/
 
+@font-face {
+font-family: "Logo";
+src: url("fonts/tt0205m.ttf");
+}
+
 .navbar {
   font-family: 'Open Sans', sans-serif;
 	padding-top: 25px;
@@ -124,7 +129,7 @@ body {
 }
 
 .navbar .navbar-brand {
-	font-family: 'Futura XBlkCnIt BT';
+	font-family: 'Logo';
 	font-size: 26px;
 	font-weight: 600;
 	letter-spacing: 0;
